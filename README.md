@@ -28,7 +28,7 @@ GLOBAL OPTIONS:
 To install, use `go get`:
 
 ```bash
-$ go get -d github.com/toritori0318/go-shelf
+$ go get -d github.com/toritori0318/shelf
 ```
 
 ## Environment
@@ -67,7 +67,7 @@ $ shelf get /alpaca/json | jq .
 
 ## Contribution
 
-1. Fork ([https://github.com/toritori0318/go-shelf/fork](https://github.com/toritori0318/go-shelf/fork))
+1. Fork ([https://github.com/toritori0318/shelf/fork](https://github.com/toritori0318/shelf/fork))
 1. Create a feature branch
 1. Commit your changes
 1. Rebase your local changes against the master branch
