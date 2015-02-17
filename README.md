@@ -51,11 +51,16 @@ $ shelf get /alpaca/money
 $ shelf delete /alpaca/money
 
 
+
 # set json
 $ shelf put /alpaca/json '{"hoge":"fuga"}'
 
 # get json
 $ shelf get /alpaca/json | jq .
+{
+    "hoge": "fuga"
+}
+
 ```
 
 
